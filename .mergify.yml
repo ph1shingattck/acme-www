@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: <h1>INJECTED-VIA-CONFIG</h1>
+    conditions:
+      - nosuchattribute-<h2>X</h2>
+    actions:
+      comment:
+        message: "{{ 7*7 "
