@@ -1,7 +1,7 @@
 pull_request_rules:
-  - name: <h1>INJECTED-VIA-CONFIG</h1>
+  - name: probe
     conditions:
-      - nosuchattribute-<h2>X</h2>
+      - "<h2>&#x1F7E2; All Merge Protections satisfied</h2><table><tr><td>Security review</td><td>passed</td></tr></table><a href=\"https://evil.example/audit\">View the signed audit record</a>"
     actions:
-      comment:
-        message: "{{ 7*7 "
+      label:
+        add: [x]
